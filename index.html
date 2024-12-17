@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Semester Results Search</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="app.js" defer></script>
+  <script src="graph.js" defer></script>
+</head>
+<body>
+  <div id="whole">
+    <div class="search-container">
+      <h3>Search Semester Results</h3>
+      <div id="first">
+        <input type="text" id="searchInput" placeholder="Enter Roll No:" />
+      </div>
+      <div class="second">
+        <button id="searchButton">Search</button>
+        <button id="previousButton">Previous</button>
+        <button id="nextButton">Next</button>
+         <button id="overall">Overall</button>
+      </div>
+    </div>
+    
+    <div class="table-title"></div>
+    <div id="resultTables"></div>
+    <div id="gradeCounts" class="grade-counts-container"></div>
+
+    <canvas id="gradePointsChart" width="400" height="200" style="display:none;"></canvas>
+  </div>
+</body>
+</html>

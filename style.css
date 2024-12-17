@@ -1,0 +1,106 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: f9f9f9;
+}
+
+#whole {
+  width: 400px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.search-container {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-top:30px;
+  margin-bottom: 10px;
+}
+
+#first, .second {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  padding: 0 20px;
+  margin:0 10px 0 10px;
+}
+
+input {
+  padding: 12px;
+  width: 50%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 12px 20px;
+  background-color: #28a745; /* Green color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838; 
+}
+
+.resultTables {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.table-title {
+  margin-top: 30px;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+tr:last-child th, 
+tr:last-child td {
+  border-bottom: none;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+td {
+  background-color: white;
+}
+
+
+#gradePointsChart {
+  width: 100%;
+  height: 400px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  border-radius: 10px;
+}
